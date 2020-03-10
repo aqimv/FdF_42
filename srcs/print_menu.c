@@ -27,7 +27,7 @@ void		print_menu(t_fdf *data)
 	mlx_string_put(mlx, win, 15, y += 30, TEXT_COLOR, "Flatten: </>");
 	mlx_string_put(mlx, win, 15, y += 30, TEXT_COLOR, "Rotate: Press & Move");
 	mlx_string_put(mlx, win, 15, y += 30, TEXT_COLOR, "Isometry: I");
-	mlx_string_put(mlx, win, 15, y += 30, TEXT_COLOR, "Defolt position: P");
+	mlx_string_put(mlx, win, 15, y += 30, TEXT_COLOR, "Default position: P");
 	mlx_string_put(mlx, win, 15, y += 30, TEXT_COLOR, "Rotate:");
 	mlx_string_put(mlx, win, 55, y += 25, TEXT_COLOR, "X-Axis - 2/8");
 	mlx_string_put(mlx, win, 55, y += 25, TEXT_COLOR, "Y-Axis - 4/6");
